@@ -5,6 +5,8 @@ type PurchaseWithCourse = Purchase & {
   course: Course;
 };
 
+// yes
+
 const groupByCourse = (purchases: PurchaseWithCourse[]) => {
   const grouped: { [courseTitle: string]: number } = {};
   
